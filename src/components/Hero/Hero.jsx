@@ -50,7 +50,7 @@ const TypewriterEffect = () => {
 const HeroSection = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/sur.pdf"; // URL or path to the file
+    link.href = "/Dinesh.pdf"; // URL or path to the file
     link.download = "CV.pdf"; // Specify the filename for the download
     link.click(); // Trigger the download
   };
