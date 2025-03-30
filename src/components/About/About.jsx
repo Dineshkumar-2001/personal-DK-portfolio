@@ -1,4 +1,4 @@
-import { FaNodeJs, FaReact, FaDatabase, FaGitAlt, FaCss3Alt, FaCode } from "react-icons/fa";
+import { FaNodeJs, FaReact, FaDatabase, FaGitAlt, FaCss3Alt, FaCode , FaHtml5 , FaJs  } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiPostgresql,
@@ -31,11 +31,26 @@ const AboutSection = () => {
               <div data-aos="fade-up" className="mt-6">
                 <h5 data-aos="fade-up" className="text-custom-color-secondary text-lg font-semibold">Skills</h5>
                 <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
+
+                <li data-aos="flip-down"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" className="flex flex-col items-center text-white">
+                    <FaHtml5  className="text-blue-600 text-3xl" />
+                    <span className="mt-2 font-medium bg-custom-text bg-clip-text text-transparent">HTML</span>
+                  </li>
+
                 <li data-aos="flip-down"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000" className="flex flex-col items-center text-white">
                     <FaCss3Alt className="text-blue-600 text-3xl" />
                     <span className="mt-2 font-medium bg-custom-text bg-clip-text text-transparent">CSS</span>
+                  </li>
+
+                  <li data-aos="flip-down"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" className="flex flex-col items-center text-white">
+                    <FaJs  className="text-blue-600 text-3xl" />
+                    <span className="mt-2 font-medium bg-custom-text bg-clip-text text-transparent">Java script</span>
                   </li>
 
                 <li data-aos="flip-down"

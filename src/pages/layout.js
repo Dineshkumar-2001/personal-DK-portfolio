@@ -15,6 +15,7 @@ export default function Layout({ children }){
         <title>
            Dineshkumar Portfolio
         </title>
+        <link rel="icon" href="/portfolioHead.png" />
         <meta
           property="og:title"
           content="Fractional NFT Marketplace: Buy, Sell Digital Art On Ommniverse"

@@ -11,7 +11,7 @@ console.log('ValorImg ==>>',ValorImg)
 const projectsData = [
   {
     id: 1,
-    title: "1TG Dashboard",
+    title: "VIRTUAL TERMINAL",
     description: "Project Details",
     image: ValorImg?.src,
     tag: ["All", "Web"],
@@ -27,9 +27,9 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "1TG Admin",
+    title: "Slot booking",
     description: "Project Details",
-    image: "/admintg.png",
+    image: "/SlotBooking.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "https://1touchglobal-admin-ui.vercel.app/",
@@ -45,9 +45,9 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Ommniverse",
+    title: "Smartdx",
     description: "Project Details",
-    image: "/Ommniverse.png",
+    image: "/SMARTDX.JPG",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "https://ommniverse.ai/",
@@ -163,7 +163,7 @@ const ProjectsSection = () => {
             previewUrl={project.previewUrl}
             technologyStack={project.technologyStack}
           />
-        ))}
+        ))} 
       </ul>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
         <path
