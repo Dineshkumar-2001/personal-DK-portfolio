@@ -47,7 +47,7 @@ const projectsData = [
     id: 3,
     title: "Smartdx",
     description: "Project Details",
-    image: "/SMARTDX.JPG",
+    image: "/resulticks_logo.JPG",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "https://ommniverse.ai/",
